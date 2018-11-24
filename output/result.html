@@ -1,0 +1,934 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Customers</th>
+      <th>Cohort</th>
+      <th>0-6 days</th>
+      <th>7-13 days</th>
+      <th>14-20 days</th>
+      <th>21-27 days</th>
+      <th>28-34 days</th>
+      <th>35-41 days</th>
+      <th>42-48 days</th>
+      <th>49-55 days</th>
+      <th>56-62 days</th>
+      <th>63-69 days</th>
+      <th>70-76 days</th>
+      <th>77-83 days</th>
+      <th>84-90 days</th>
+      <th>91-97 days</th>
+      <th>98-104 days</th>
+      <th>105-111 days</th>
+      <th>112-118 days</th>
+      <th>119-125 days</th>
+      <th>126-132 days</th>
+      <th>133-139 days</th>
+      <th>140-146 days</th>
+      <th>147-153 days</th>
+      <th>154-160 days</th>
+      <th>161-167 days</th>
+      <th>168-174 days</th>
+      <th>175-181 days</th>
+      <th>182-188 days</th>
+    </tr>
+    <tr>
+      <th>cid</th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>308</td>
+      <td>2015-01-01 ~ 2015-01-07</td>
+      <td>36 orders (1st time : 36)</td>
+      <td>14 orders (1st time : 6)</td>
+      <td>14 orders (1st time : 4)</td>
+      <td>11 orders (1st time : 1)</td>
+      <td>16 orders (1st time : 3)</td>
+      <td>6 orders (1st time : 0)</td>
+      <td>7 orders (1st time : 1)</td>
+      <td>8 orders (1st time : 0)</td>
+      <td>7 orders (1st time : 1)</td>
+      <td>4 orders (1st time : 0)</td>
+      <td>6 orders (1st time : 0)</td>
+      <td>7 orders (1st time : 2)</td>
+      <td>6 orders (1st time : 0)</td>
+      <td>5 orders (1st time : 1)</td>
+      <td>6 orders (1st time : 1)</td>
+      <td>8 orders (1st time : 0)</td>
+      <td>4 orders (1st time : 0)</td>
+      <td>7 orders (1st time : 0)</td>
+      <td>8 orders (1st time : 1)</td>
+      <td>4 orders (1st time : 1)</td>
+      <td>4 orders (1st time : 0)</td>
+      <td>7 orders (1st time : 0)</td>
+      <td>3 orders (1st time : 0)</td>
+      <td>6 orders (1st time : 0)</td>
+      <td>8 orders (1st time : 1)</td>
+      <td>6 orders (1st time : 0)</td>
+      <td>2 orders (1st time : 0)</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>2210</td>
+      <td>2015-01-08 ~ 2015-01-14</td>
+      <td>224 orders (1st time : 224)</td>
+      <td>149 orders (1st time : 94)</td>
+      <td>102 orders (1st time : 39)</td>
+      <td>105 orders (1st time : 24)</td>
+      <td>91 orders (1st time : 23)</td>
+      <td>88 orders (1st time : 15)</td>
+      <td>91 orders (1st time : 20)</td>
+      <td>96 orders (1st time : 17)</td>
+      <td>92 orders (1st time : 21)</td>
+      <td>83 orders (1st time : 15)</td>
+      <td>56 orders (1st time : 3)</td>
+      <td>68 orders (1st time : 7)</td>
+      <td>70 orders (1st time : 5)</td>
+      <td>65 orders (1st time : 7)</td>
+      <td>75 orders (1st time : 7)</td>
+      <td>80 orders (1st time : 14)</td>
+      <td>63 orders (1st time : 5)</td>
+      <td>68 orders (1st time : 7)</td>
+      <td>60 orders (1st time : 5)</td>
+      <td>64 orders (1st time : 2)</td>
+      <td>50 orders (1st time : 4)</td>
+      <td>53 orders (1st time : 7)</td>
+      <td>68 orders (1st time : 4)</td>
+      <td>65 orders (1st time : 5)</td>
+      <td>47 orders (1st time : 3)</td>
+      <td>26 orders (1st time : 5)</td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>790</td>
+      <td>2015-01-15 ~ 2015-01-21</td>
+      <td>137 orders (1st time : 137)</td>
+      <td>59 orders (1st time : 28)</td>
+      <td>43 orders (1st time : 15)</td>
+      <td>26 orders (1st time : 6)</td>
+      <td>38 orders (1st time : 9)</td>
+      <td>39 orders (1st time : 8)</td>
+      <td>48 orders (1st time : 7)</td>
+      <td>38 orders (1st time : 4)</td>
+      <td>45 orders (1st time : 8)</td>
+      <td>30 orders (1st time : 1)</td>
+      <td>35 orders (1st time : 3)</td>
+      <td>31 orders (1st time : 0)</td>
+      <td>37 orders (1st time : 4)</td>
+      <td>35 orders (1st time : 3)</td>
+      <td>36 orders (1st time : 1)</td>
+      <td>39 orders (1st time : 1)</td>
+      <td>27 orders (1st time : 4)</td>
+      <td>37 orders (1st time : 1)</td>
+      <td>33 orders (1st time : 4)</td>
+      <td>36 orders (1st time : 1)</td>
+      <td>33 orders (1st time : 2)</td>
+      <td>43 orders (1st time : 5)</td>
+      <td>25 orders (1st time : 2)</td>
+      <td>33 orders (1st time : 1)</td>
+      <td>18 orders (1st time : 1)</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>1349</td>
+      <td>2015-01-22 ~ 2015-01-28</td>
+      <td>236 orders (1st time : 236)</td>
+      <td>104 orders (1st time : 59)</td>
+      <td>72 orders (1st time : 24)</td>
+      <td>66 orders (1st time : 20)</td>
+      <td>73 orders (1st time : 18)</td>
+      <td>79 orders (1st time : 22)</td>
+      <td>64 orders (1st time : 15)</td>
+      <td>69 orders (1st time : 11)</td>
+      <td>60 orders (1st time : 9)</td>
+      <td>55 orders (1st time : 5)</td>
+      <td>59 orders (1st time : 5)</td>
+      <td>59 orders (1st time : 11)</td>
+      <td>55 orders (1st time : 9)</td>
+      <td>60 orders (1st time : 13)</td>
+      <td>43 orders (1st time : 8)</td>
+      <td>45 orders (1st time : 3)</td>
+      <td>57 orders (1st time : 8)</td>
+      <td>41 orders (1st time : 3)</td>
+      <td>48 orders (1st time : 3)</td>
+      <td>53 orders (1st time : 5)</td>
+      <td>48 orders (1st time : 3)</td>
+      <td>33 orders (1st time : 1)</td>
+      <td>40 orders (1st time : 3)</td>
+      <td>17 orders (1st time : 1)</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>549</td>
+      <td>2015-01-29 ~ 2015-02-04</td>
+      <td>116 orders (1st time : 116)</td>
+      <td>41 orders (1st time : 15)</td>
+      <td>36 orders (1st time : 13)</td>
+      <td>30 orders (1st time : 8)</td>
+      <td>35 orders (1st time : 8)</td>
+      <td>27 orders (1st time : 9)</td>
+      <td>37 orders (1st time : 7)</td>
+      <td>27 orders (1st time : 4)</td>
+      <td>27 orders (1st time : 0)</td>
+      <td>25 orders (1st time : 1)</td>
+      <td>28 orders (1st time : 3)</td>
+      <td>28 orders (1st time : 2)</td>
+      <td>32 orders (1st time : 0)</td>
+      <td>26 orders (1st time : 2)</td>
+      <td>23 orders (1st time : 1)</td>
+      <td>26 orders (1st time : 3)</td>
+      <td>31 orders (1st time : 3)</td>
+      <td>24 orders (1st time : 1)</td>
+      <td>25 orders (1st time : 2)</td>
+      <td>26 orders (1st time : 1)</td>
+      <td>28 orders (1st time : 0)</td>
+      <td>25 orders (1st time : 1)</td>
+      <td>14 orders (1st time : 0)</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>475</td>
+      <td>2015-02-05 ~ 2015-02-11</td>
+      <td>85 orders (1st time : 85)</td>
+      <td>31 orders (1st time : 14)</td>
+      <td>28 orders (1st time : 6)</td>
+      <td>23 orders (1st time : 4)</td>
+      <td>21 orders (1st time : 2)</td>
+      <td>24 orders (1st time : 3)</td>
+      <td>18 orders (1st time : 3)</td>
+      <td>18 orders (1st time : 1)</td>
+      <td>21 orders (1st time : 2)</td>
+      <td>20 orders (1st time : 2)</td>
+      <td>19 orders (1st time : 1)</td>
+      <td>20 orders (1st time : 2)</td>
+      <td>23 orders (1st time : 6)</td>
+      <td>18 orders (1st time : 1)</td>
+      <td>23 orders (1st time : 1)</td>
+      <td>15 orders (1st time : 0)</td>
+      <td>17 orders (1st time : 1)</td>
+      <td>16 orders (1st time : 1)</td>
+      <td>20 orders (1st time : 2)</td>
+      <td>15 orders (1st time : 0)</td>
+      <td>16 orders (1st time : 1)</td>
+      <td>10 orders (1st time : 1)</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>451</td>
+      <td>2015-02-12 ~ 2015-02-18</td>
+      <td>67 orders (1st time : 67)</td>
+      <td>28 orders (1st time : 11)</td>
+      <td>27 orders (1st time : 12)</td>
+      <td>27 orders (1st time : 5)</td>
+      <td>19 orders (1st time : 4)</td>
+      <td>10 orders (1st time : 0)</td>
+      <td>17 orders (1st time : 3)</td>
+      <td>18 orders (1st time : 3)</td>
+      <td>12 orders (1st time : 1)</td>
+      <td>18 orders (1st time : 1)</td>
+      <td>18 orders (1st time : 2)</td>
+      <td>12 orders (1st time : 0)</td>
+      <td>16 orders (1st time : 2)</td>
+      <td>12 orders (1st time : 2)</td>
+      <td>13 orders (1st time : 0)</td>
+      <td>20 orders (1st time : 1)</td>
+      <td>17 orders (1st time : 3)</td>
+      <td>10 orders (1st time : 0)</td>
+      <td>18 orders (1st time : 2)</td>
+      <td>18 orders (1st time : 2)</td>
+      <td>4 orders (1st time : 0)</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>417</td>
+      <td>2015-02-19 ~ 2015-02-25</td>
+      <td>85 orders (1st time : 85)</td>
+      <td>28 orders (1st time : 11)</td>
+      <td>29 orders (1st time : 5)</td>
+      <td>24 orders (1st time : 2)</td>
+      <td>24 orders (1st time : 5)</td>
+      <td>25 orders (1st time : 5)</td>
+      <td>20 orders (1st time : 1)</td>
+      <td>21 orders (1st time : 2)</td>
+      <td>17 orders (1st time : 0)</td>
+      <td>22 orders (1st time : 1)</td>
+      <td>14 orders (1st time : 2)</td>
+      <td>24 orders (1st time : 0)</td>
+      <td>20 orders (1st time : 0)</td>
+      <td>17 orders (1st time : 1)</td>
+      <td>20 orders (1st time : 0)</td>
+      <td>18 orders (1st time : 0)</td>
+      <td>20 orders (1st time : 1)</td>
+      <td>21 orders (1st time : 0)</td>
+      <td>16 orders (1st time : 0)</td>
+      <td>9 orders (1st time : 1)</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>2129</td>
+      <td>2015-02-26 ~ 2015-03-04</td>
+      <td>219 orders (1st time : 219)</td>
+      <td>87 orders (1st time : 31)</td>
+      <td>72 orders (1st time : 22)</td>
+      <td>57 orders (1st time : 13)</td>
+      <td>71 orders (1st time : 15)</td>
+      <td>53 orders (1st time : 7)</td>
+      <td>60 orders (1st time : 9)</td>
+      <td>56 orders (1st time : 5)</td>
+      <td>58 orders (1st time : 8)</td>
+      <td>61 orders (1st time : 12)</td>
+      <td>47 orders (1st time : 6)</td>
+      <td>54 orders (1st time : 5)</td>
+      <td>38 orders (1st time : 3)</td>
+      <td>52 orders (1st time : 2)</td>
+      <td>37 orders (1st time : 3)</td>
+      <td>48 orders (1st time : 4)</td>
+      <td>50 orders (1st time : 10)</td>
+      <td>51 orders (1st time : 5)</td>
+      <td>13 orders (1st time : 2)</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>1445</td>
+      <td>2015-03-05 ~ 2015-03-11</td>
+      <td>163 orders (1st time : 163)</td>
+      <td>64 orders (1st time : 20)</td>
+      <td>50 orders (1st time : 19)</td>
+      <td>39 orders (1st time : 7)</td>
+      <td>46 orders (1st time : 8)</td>
+      <td>33 orders (1st time : 2)</td>
+      <td>37 orders (1st time : 5)</td>
+      <td>41 orders (1st time : 4)</td>
+      <td>47 orders (1st time : 4)</td>
+      <td>36 orders (1st time : 3)</td>
+      <td>34 orders (1st time : 2)</td>
+      <td>32 orders (1st time : 3)</td>
+      <td>39 orders (1st time : 2)</td>
+      <td>32 orders (1st time : 1)</td>
+      <td>38 orders (1st time : 5)</td>
+      <td>34 orders (1st time : 2)</td>
+      <td>36 orders (1st time : 1)</td>
+      <td>9 orders (1st time : 0)</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>1182</td>
+      <td>2015-03-12 ~ 2015-03-18</td>
+      <td>81 orders (1st time : 81)</td>
+      <td>41 orders (1st time : 20)</td>
+      <td>31 orders (1st time : 8)</td>
+      <td>34 orders (1st time : 9)</td>
+      <td>30 orders (1st time : 6)</td>
+      <td>29 orders (1st time : 7)</td>
+      <td>30 orders (1st time : 6)</td>
+      <td>28 orders (1st time : 5)</td>
+      <td>19 orders (1st time : 4)</td>
+      <td>25 orders (1st time : 3)</td>
+      <td>27 orders (1st time : 4)</td>
+      <td>17 orders (1st time : 2)</td>
+      <td>22 orders (1st time : 2)</td>
+      <td>25 orders (1st time : 6)</td>
+      <td>21 orders (1st time : 3)</td>
+      <td>24 orders (1st time : 1)</td>
+      <td>8 orders (1st time : 0)</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>987</td>
+      <td>2015-03-19 ~ 2015-03-25</td>
+      <td>85 orders (1st time : 85)</td>
+      <td>31 orders (1st time : 15)</td>
+      <td>24 orders (1st time : 5)</td>
+      <td>24 orders (1st time : 5)</td>
+      <td>27 orders (1st time : 7)</td>
+      <td>25 orders (1st time : 3)</td>
+      <td>25 orders (1st time : 3)</td>
+      <td>20 orders (1st time : 5)</td>
+      <td>21 orders (1st time : 2)</td>
+      <td>25 orders (1st time : 1)</td>
+      <td>20 orders (1st time : 4)</td>
+      <td>22 orders (1st time : 1)</td>
+      <td>30 orders (1st time : 1)</td>
+      <td>23 orders (1st time : 1)</td>
+      <td>17 orders (1st time : 2)</td>
+      <td>12 orders (1st time : 0)</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>1008</td>
+      <td>2015-03-26 ~ 2015-04-01</td>
+      <td>74 orders (1st time : 74)</td>
+      <td>25 orders (1st time : 12)</td>
+      <td>39 orders (1st time : 14)</td>
+      <td>27 orders (1st time : 6)</td>
+      <td>30 orders (1st time : 9)</td>
+      <td>23 orders (1st time : 3)</td>
+      <td>25 orders (1st time : 5)</td>
+      <td>29 orders (1st time : 7)</td>
+      <td>19 orders (1st time : 2)</td>
+      <td>21 orders (1st time : 1)</td>
+      <td>32 orders (1st time : 2)</td>
+      <td>33 orders (1st time : 6)</td>
+      <td>23 orders (1st time : 2)</td>
+      <td>30 orders (1st time : 2)</td>
+      <td>10 orders (1st time : 2)</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>1094</td>
+      <td>2015-04-02 ~ 2015-04-08</td>
+      <td>93 orders (1st time : 93)</td>
+      <td>29 orders (1st time : 11)</td>
+      <td>33 orders (1st time : 8)</td>
+      <td>30 orders (1st time : 9)</td>
+      <td>32 orders (1st time : 4)</td>
+      <td>25 orders (1st time : 1)</td>
+      <td>22 orders (1st time : 2)</td>
+      <td>26 orders (1st time : 1)</td>
+      <td>24 orders (1st time : 3)</td>
+      <td>28 orders (1st time : 0)</td>
+      <td>30 orders (1st time : 3)</td>
+      <td>16 orders (1st time : 0)</td>
+      <td>20 orders (1st time : 1)</td>
+      <td>13 orders (1st time : 2)</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>877</td>
+      <td>2015-04-09 ~ 2015-04-15</td>
+      <td>87 orders (1st time : 87)</td>
+      <td>38 orders (1st time : 16)</td>
+      <td>34 orders (1st time : 7)</td>
+      <td>26 orders (1st time : 8)</td>
+      <td>28 orders (1st time : 2)</td>
+      <td>24 orders (1st time : 2)</td>
+      <td>24 orders (1st time : 2)</td>
+      <td>16 orders (1st time : 0)</td>
+      <td>26 orders (1st time : 1)</td>
+      <td>25 orders (1st time : 4)</td>
+      <td>27 orders (1st time : 2)</td>
+      <td>22 orders (1st time : 2)</td>
+      <td>10 orders (1st time : 2)</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>896</td>
+      <td>2015-04-16 ~ 2015-04-22</td>
+      <td>78 orders (1st time : 78)</td>
+      <td>32 orders (1st time : 14)</td>
+      <td>28 orders (1st time : 3)</td>
+      <td>26 orders (1st time : 7)</td>
+      <td>27 orders (1st time : 4)</td>
+      <td>17 orders (1st time : 1)</td>
+      <td>23 orders (1st time : 4)</td>
+      <td>13 orders (1st time : 0)</td>
+      <td>28 orders (1st time : 5)</td>
+      <td>27 orders (1st time : 3)</td>
+      <td>22 orders (1st time : 5)</td>
+      <td>13 orders (1st time : 1)</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>969</td>
+      <td>2015-04-23 ~ 2015-04-29</td>
+      <td>150 orders (1st time : 150)</td>
+      <td>47 orders (1st time : 11)</td>
+      <td>34 orders (1st time : 8)</td>
+      <td>30 orders (1st time : 9)</td>
+      <td>35 orders (1st time : 5)</td>
+      <td>35 orders (1st time : 8)</td>
+      <td>33 orders (1st time : 4)</td>
+      <td>26 orders (1st time : 5)</td>
+      <td>32 orders (1st time : 6)</td>
+      <td>34 orders (1st time : 4)</td>
+      <td>18 orders (1st time : 4)</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>17</th>
+      <td>706</td>
+      <td>2015-04-30 ~ 2015-05-06</td>
+      <td>115 orders (1st time : 115)</td>
+      <td>35 orders (1st time : 13)</td>
+      <td>32 orders (1st time : 6)</td>
+      <td>33 orders (1st time : 8)</td>
+      <td>29 orders (1st time : 3)</td>
+      <td>25 orders (1st time : 4)</td>
+      <td>29 orders (1st time : 4)</td>
+      <td>28 orders (1st time : 4)</td>
+      <td>26 orders (1st time : 4)</td>
+      <td>10 orders (1st time : 1)</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>18</th>
+      <td>721</td>
+      <td>2015-05-07 ~ 2015-05-13</td>
+      <td>102 orders (1st time : 102)</td>
+      <td>39 orders (1st time : 17)</td>
+      <td>27 orders (1st time : 4)</td>
+      <td>35 orders (1st time : 10)</td>
+      <td>30 orders (1st time : 3)</td>
+      <td>31 orders (1st time : 7)</td>
+      <td>35 orders (1st time : 7)</td>
+      <td>25 orders (1st time : 4)</td>
+      <td>7 orders (1st time : 0)</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td>630</td>
+      <td>2015-05-14 ~ 2015-05-20</td>
+      <td>99 orders (1st time : 99)</td>
+      <td>27 orders (1st time : 12)</td>
+      <td>33 orders (1st time : 9)</td>
+      <td>25 orders (1st time : 6)</td>
+      <td>28 orders (1st time : 8)</td>
+      <td>31 orders (1st time : 8)</td>
+      <td>21 orders (1st time : 4)</td>
+      <td>15 orders (1st time : 2)</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>20</th>
+      <td>917</td>
+      <td>2015-05-21 ~ 2015-05-27</td>
+      <td>140 orders (1st time : 140)</td>
+      <td>52 orders (1st time : 22)</td>
+      <td>47 orders (1st time : 11)</td>
+      <td>36 orders (1st time : 9)</td>
+      <td>48 orders (1st time : 6)</td>
+      <td>38 orders (1st time : 3)</td>
+      <td>22 orders (1st time : 1)</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>21</th>
+      <td>972</td>
+      <td>2015-05-28 ~ 2015-06-03</td>
+      <td>148 orders (1st time : 148)</td>
+      <td>48 orders (1st time : 12)</td>
+      <td>48 orders (1st time : 18)</td>
+      <td>41 orders (1st time : 11)</td>
+      <td>39 orders (1st time : 5)</td>
+      <td>11 orders (1st time : 3)</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>22</th>
+      <td>858</td>
+      <td>2015-06-04 ~ 2015-06-10</td>
+      <td>121 orders (1st time : 121)</td>
+      <td>39 orders (1st time : 19)</td>
+      <td>37 orders (1st time : 8)</td>
+      <td>29 orders (1st time : 9)</td>
+      <td>20 orders (1st time : 7)</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>23</th>
+      <td>1066</td>
+      <td>2015-06-11 ~ 2015-06-17</td>
+      <td>177 orders (1st time : 177)</td>
+      <td>51 orders (1st time : 18)</td>
+      <td>46 orders (1st time : 11)</td>
+      <td>18 orders (1st time : 3)</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>24</th>
+      <td>946</td>
+      <td>2015-06-18 ~ 2015-06-24</td>
+      <td>168 orders (1st time : 168)</td>
+      <td>44 orders (1st time : 16)</td>
+      <td>15 orders (1st time : 3)</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>25</th>
+      <td>781</td>
+      <td>2015-06-25 ~ 2015-07-01</td>
+      <td>123 orders (1st time : 123)</td>
+      <td>23 orders (1st time : 12)</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>26</th>
+      <td>983</td>
+      <td>2015-07-02 ~ 2015-07-07</td>
+      <td>136 orders (1st time : 136)</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
